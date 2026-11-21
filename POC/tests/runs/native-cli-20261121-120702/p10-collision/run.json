@@ -1,0 +1,27 @@
+{
+  "case": "p10-collision",
+  "scenarios": [
+    "P10"
+  ],
+  "project": "D:\\Projects\\Skilleto\\.test-lab\\skilleto-cli-lab-506f62bfcc4c\\p10-collision",
+  "turns": [
+    {
+      "turn": 1,
+      "exit_code": 0,
+      "timed_out": false,
+      "duration_seconds": 152.1,
+      "session_id": "01a1fe06-ab2e-7991-adf2-82245fff79b3",
+      "event_count": 27,
+      "tool_event_count": 20
+    }
+  ],
+  "delta": {
+    "added": [
+      "strategy.md"
+    ],
+    "removed": [],
+    "modified": []
+  },
+  "status": "EXECUTED",
+  "grading": "Execution status only; inspect transcripts and artifacts before assigning behavioral PASS/FAIL."
+}

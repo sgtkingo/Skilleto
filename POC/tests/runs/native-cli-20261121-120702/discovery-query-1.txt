@@ -1,0 +1,47 @@
+﻿
+Install with npx skills add <owner/repo@skill>
+
+opum-ai/proof-skills@tlaplus-model 4 installs
+└ https://skills.sh/opum-ai/proof-skills/tlaplus-model
+
+Partial matches (some terms of "tla fairness liveness"):
+
+dtsong/agentic-council@formal-spec 21 installs
+└ https://skills.sh/dtsong/agentic-council/formal-spec
+
+statelyai/skills@stately 15 installs
+└ https://skills.sh/statelyai/skills/stately
+
+santosomar/general-secure-coding-agent-skills@program-to-tlaplus-spec-generator 1 install
+└ https://skills.sh/santosomar/general-secure-coding-agent-skills/program-to-tlaplus-spec-generator
+
+basseko/skills@tla-plus 5 installs
+└ https://skills.sh/basseko/skills/tla-plus
+
+arabelatso/skills-4-se@tlaplus-spec-generator 5 installs
+└ https://skills.sh/arabelatso/skills-4-se/tlaplus-spec-generator
+
+arabelatso/skills-4-se@tlaplus-guided-code-repair 4 installs
+└ https://skills.sh/arabelatso/skills-4-se/tlaplus-guided-code-repair
+
+santosomar/general-secure-coding-agent-skills@tlaplus-spec-generator 2 installs
+└ https://skills.sh/santosomar/general-secure-coding-agent-skills/tlaplus-spec-generator
+
+yasir2000/proof-mcp@tla-model-generation 1 install
+└ https://skills.sh/yasir2000/proof-mcp/tla-model-generation
+
+linn0x/engineering-verification-loop@tla-distributed-model-checking 1 install
+└ https://skills.sh/linn0x/engineering-verification-loop/tla-distributed-model-checking
+
+arabelatso/skills-4-se@specification-to-temporal-logic-generator 6 installs
+└ https://skills.sh/arabelatso/skills-4-se/specification-to-temporal-logic-generator
+
+arabelatso/skills-4-se@requirement-to-tlaplus-property-generator 5 installs
+└ https://skills.sh/arabelatso/skills-4-se/requirement-to-tlaplus-property-generator
+
+santosomar/general-secure-coding-agent-skills@requirement-to-tlaplus-property-generator 1 install
+└ https://skills.sh/santosomar/general-secure-coding-agent-skills/requirement-to-tlaplus-property-generator
+
+theishandubey/verify-formally@verify-formally 1 install
+└ https://skills.sh/theishandubey/verify-formally/verify-formally
+

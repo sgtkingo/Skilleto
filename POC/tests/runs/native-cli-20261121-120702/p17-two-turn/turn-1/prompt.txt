@@ -1,0 +1,1 @@
+Příštím krokem bude přejmenování lokální proměnné total na subtotal v calc.py bez změny chování. Teď tento úkol jen potvrď a nic neměň. Po mé další zprávě jej proveď.

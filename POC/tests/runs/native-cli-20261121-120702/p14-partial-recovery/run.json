@@ -1,0 +1,35 @@
+{
+  "case": "p14-partial-recovery",
+  "scenarios": [
+    "P14",
+    "P15"
+  ],
+  "project": "D:\\Projects\\Skilleto\\.test-lab\\skilleto-cli-lab-506f62bfcc4c\\p14-partial-recovery",
+  "turns": [
+    {
+      "turn": 1,
+      "exit_code": 0,
+      "timed_out": false,
+      "turn_completed": true,
+      "answer_exists": true,
+      "duration_seconds": 151.02,
+      "session_id": "01a1fe0c-1af0-7180-a1d8-97408b4e588b",
+      "event_count": 20,
+      "tool_event_count": 14
+    }
+  ],
+  "delta": {
+    "added": [
+      "recovery.md"
+    ],
+    "removed": [
+      "staging/incomplete-skill.tmp"
+    ],
+    "modified": [
+      "calc.py",
+      "skills-lock.json"
+    ]
+  },
+  "status": "EXECUTED",
+  "grading": "Execution status only; inspect transcripts and artifacts before assigning behavioral PASS/FAIL."
+}

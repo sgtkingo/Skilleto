@@ -1,0 +1,1 @@
+Použij Skilleto a zhodnoť proveditelnost návrhu v proposal.txt vůči skutečným projektovým souborům. Nic neinstaluj. Pak dokonči plán testování cache v strategy.md.

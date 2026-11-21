@@ -1,0 +1,31 @@
+{
+  "source": "https://github.com/vercel-labs/agent-skills",
+  "listing": "https://www.skills.sh/vercel-labs/agent-skills/web-design-guidelines",
+  "revision": "5a37a6329fbad3666c3207392a6a7c0110e92efb",
+  "skill_path": "skills/web-design-guidelines",
+  "staging_directory": "D:\\Projects\\Skilleto\\.test-lab\\skilleto-cli-lab-506f62bfcc4c\\reviewed-web-design-guidelines",
+  "target_project": "D:\\Projects\\Skilleto\\.test-lab\\skilleto-cli-lab-506f62bfcc4c\\p09-approved-install",
+  "files": {
+    "SKILL.md": "360b1240acfffa95e76373db9f837a1f28aba8f6d4c361e3d588be0eaefaa070",
+    "references/command.md": "d246b026f4f29b5823a9cc857f9edf3d2507002e055e32040cadeaf3b38e0234"
+  },
+  "risk": "LOW with residual supply-chain and instruction-following uncertainty",
+  "review": "Full skill and all bundled reference content read. Directory listings confirm only SKILL.md and references/command.md. No executable scripts, setup hooks, runtime dependency manifests, credential handling or external rule fetching in this skill. Updating instructions are maintenance-only and will not be executed. CLI dependencies remain separate from candidate text review.",
+  "command": [
+    "npx.cmd",
+    "--yes",
+    "--package",
+    "skills@1.9.0",
+    "skills",
+    "add",
+    "D:\\Projects\\Skilleto\\.test-lab\\skilleto-cli-lab-506f62bfcc4c\\reviewed-web-design-guidelines",
+    "--skill",
+    "web-design-guidelines",
+    "-a",
+    "codex",
+    "--copy",
+    "--yes"
+  ],
+  "authorization": "APPROVED: user explicitly authorized this exact project-local installation test and subsequent HTML audit on 2026-11-21.",
+  "authorization_question_id": "call_8e4998a172c84876834e0f00ce8b75f5:0"
+}

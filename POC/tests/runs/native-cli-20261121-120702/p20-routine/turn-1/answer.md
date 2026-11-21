@@ -1,0 +1,1 @@
+V [calc.py](D:/Projects/Skilleto/.test-lab/skilleto-cli-lab-506f62bfcc4c/p20-routine/calc.py) jsem přejmenoval lokální proměnnou `total` na `subtotal` včetně jejího použití. Chování zůstává stejné.

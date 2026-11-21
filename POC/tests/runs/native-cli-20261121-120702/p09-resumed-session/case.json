@@ -1,0 +1,8 @@
+{
+  "scenarios": [
+    "P12"
+  ],
+  "project_directory": "p09-approved-install",
+  "resume_session": "01a1fe0a-9799-75c1-acd4-830e462c8e1a",
+  "prompt": "Instalace jedineho skillu web-design-guidelines z predem proverene kopie byla prave vyslovne schvalena uzivatelem a provedena testovacim spravcem. Kontrola hashu potvrdila presne dva nove soubory a zadne zmeny existujicich souboru. Pouzij Skilleto: rozlis stav na disku od dostupnosti v teto puvodni relaci. Over, zda je novy skill v tvem aktualnim nativnim inventari; pokud to nelze dolozit, uved to a dej krok pro novou relaci. Samotne rucni precteni SKILL.md nepovazuj za dukaz nativni aktivace. Audit index.html podle noveho skillu proved pouze pokud jej tato relace skutecne umi nativne pouzit; jinak popis bezpecny dalsi krok. Vysledek uloz do audit-existing-session.md do 45 radku. Zadna instalace, aktualizace, sit ani zmena index.html neni povolena."
+}

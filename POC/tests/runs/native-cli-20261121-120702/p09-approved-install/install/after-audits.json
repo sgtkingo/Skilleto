@@ -1,0 +1,50 @@
+{
+  "audit-existing-session.md": {
+    "sha256": "70ea936593848cddf2a92147c7bdfb09dedd912911306a3b28428dca7f8bfd9f",
+    "bytes": 2624
+  },
+  "audit-fresh-session.md": {
+    "sha256": "fe1147d644e00e19e76b9717d6e5001c187f90667fe3ef864f5941131de5f285",
+    "bytes": 1138
+  },
+  "index.html": {
+    "sha256": "0c9cc09bd2cbc121526bc1ac7616b06a875f342da366f898d1725870357d94d0",
+    "bytes": 238
+  },
+  "skills-lock.json": {
+    "sha256": "b6b20e2b90a5253e0151e0581d75d08051fb6b64dbf66fd6a74e79cafe320530",
+    "bytes": 275
+  },
+  ".agents/skills/skilleto/SKILL.md": {
+    "sha256": "9fb44a0e26c37f329d77a62f4fa91b4be9ae9bf84f7e15fde5932ad9996239db",
+    "bytes": 3621
+  },
+  ".agents/skills/skilleto/references/discovery.md": {
+    "sha256": "f17656112a4dbdb27b378864752531431a0a2ed3a11dcd91c55b8e98d1455a9d",
+    "bytes": 3959
+  },
+  ".agents/skills/skilleto/references/provisioning.md": {
+    "sha256": "1e8b60155bb44d4d91ab17f669ca4de6e959e99eb8eb45300087930fb1ee1f75",
+    "bytes": 6952
+  },
+  ".agents/skills/skilleto/references/security-policy.md": {
+    "sha256": "0cf8d1b5cbdd6ce1e46ffc78608748b8ab23448e50d90ac1e79a8c72a380f8cb",
+    "bytes": 4316
+  },
+  ".agents/skills/skilleto/references/semantic-matching.md": {
+    "sha256": "cccf33f9898bec9709b163ea60dd8585cc6a4d662e3b7ac74963d92955f4f885",
+    "bytes": 1982
+  },
+  ".agents/skills/skilleto/references/workflow.md": {
+    "sha256": "f684b01c9d8ba288cab5ff1e1bd37b6a450f788a505d5b461b819603646d1d13",
+    "bytes": 4662
+  },
+  ".agents/skills/web-design-guidelines/SKILL.md": {
+    "sha256": "360b1240acfffa95e76373db9f837a1f28aba8f6d4c361e3d588be0eaefaa070",
+    "bytes": 2077
+  },
+  ".agents/skills/web-design-guidelines/references/command.md": {
+    "sha256": "d246b026f4f29b5823a9cc857f9edf3d2507002e055e32040cadeaf3b38e0234",
+    "bytes": 8055
+  }
+}

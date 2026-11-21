@@ -1,0 +1,27 @@
+{
+  "case": "p18-implicit-planning",
+  "scenarios": [
+    "P18"
+  ],
+  "project": "D:\\Projects\\Skilleto\\.test-lab\\skilleto-cli-lab-506f62bfcc4c\\p18-implicit-planning",
+  "turns": [
+    {
+      "turn": 1,
+      "exit_code": 0,
+      "timed_out": false,
+      "duration_seconds": 155.72,
+      "session_id": "01a1fe0a-7bba-7ef0-8a61-b9c136e1d26d",
+      "event_count": 19,
+      "tool_event_count": 12
+    }
+  ],
+  "delta": {
+    "added": [
+      "strategy.md"
+    ],
+    "removed": [],
+    "modified": []
+  },
+  "status": "EXECUTED",
+  "grading": "Execution status only; inspect transcripts and artifacts before assigning behavioral PASS/FAIL."
+}

@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "skills": {
+    "existing-user-skill": {
+      "source": "local-user-fixture",
+      "keep": "unchanged"
+    }
+  }
+}

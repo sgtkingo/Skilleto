@@ -1,0 +1,27 @@
+{
+  "case": "p19-implicit-inspection",
+  "scenarios": [
+    "P19"
+  ],
+  "project": "D:\\Projects\\Skilleto\\.test-lab\\skilleto-cli-lab-506f62bfcc4c\\p19-implicit-inspection",
+  "turns": [
+    {
+      "turn": 1,
+      "exit_code": 0,
+      "timed_out": false,
+      "duration_seconds": 175.5,
+      "session_id": "01a1fe0b-0e19-7873-b348-0bb0bb922e8b",
+      "event_count": 25,
+      "tool_event_count": 18
+    }
+  ],
+  "delta": {
+    "added": [
+      "review.md"
+    ],
+    "removed": [],
+    "modified": []
+  },
+  "status": "EXECUTED",
+  "grading": "Execution status only; inspect transcripts and artifacts before assigning behavioral PASS/FAIL."
+}

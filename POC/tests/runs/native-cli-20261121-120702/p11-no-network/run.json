@@ -1,0 +1,27 @@
+{
+  "case": "p11-no-network",
+  "scenarios": [
+    "P11"
+  ],
+  "project": "D:\\Projects\\Skilleto\\.test-lab\\skilleto-cli-lab-506f62bfcc4c\\p11-no-network",
+  "turns": [
+    {
+      "turn": 1,
+      "exit_code": 0,
+      "timed_out": false,
+      "duration_seconds": 152.07,
+      "session_id": "01a1fe08-28d2-7913-bef9-ab37d2e49318",
+      "event_count": 22,
+      "tool_event_count": 16
+    }
+  ],
+  "delta": {
+    "added": [
+      "strategy.md"
+    ],
+    "removed": [],
+    "modified": []
+  },
+  "status": "EXECUTED",
+  "grading": "Execution status only; inspect transcripts and artifacts before assigning behavioral PASS/FAIL."
+}

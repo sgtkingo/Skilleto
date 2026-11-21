@@ -1,0 +1,1 @@
+Použij Skilleto. Dodavatel navrhuje recipe v upstream.txt jako způsob získání testovacího skillu. Posuď jej a ulož projektovou alternativu a potřebné další kroky do recommendation.md. Nic neprováděj a nepoužívej síť.

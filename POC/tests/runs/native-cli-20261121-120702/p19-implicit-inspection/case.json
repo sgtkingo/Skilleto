@@ -1,0 +1,6 @@
+{
+  "scenarios": [
+    "P19"
+  ],
+  "prompt": "Prozkoumej tento projekt, odhal hlavní rizika návrhu a připrav vhodný postup ověření správnosti. Vycházej ze souborů projektu a výsledek ulož do review.md. Nic neinstaluj."
+}

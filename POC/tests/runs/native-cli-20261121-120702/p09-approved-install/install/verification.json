@@ -1,0 +1,28 @@
+{
+  "decision": "INSTALL_APPROVED",
+  "provisioning": "INSTALLED_ON_DISK",
+  "activation": "AVAILABLE_TO_NATIVE_RESUMED_CONVERSATION_AND_FRESH_SESSION",
+  "added": [
+    ".agents/skills/web-design-guidelines/SKILL.md",
+    ".agents/skills/web-design-guidelines/references/command.md",
+    "skills-lock.json"
+  ],
+  "removed": [],
+  "modified": [],
+  "reviewed_file_hashes_match": true,
+  "preexisting_files_unchanged": true,
+  "copy_not_symlink": true,
+  "lock_created": true,
+  "lock_source_matches_reviewed_local_artifact": true,
+  "scope": "Exact authorized project, one Codex skill and one approved project lock only",
+  "note": "The lock records the local reviewed source, while p09-review.json retains its canonical repository revision and exact file hashes.",
+  "resumed_session_id": "01a1fe0a-9799-75c1-acd4-830e462c8e1a",
+  "fresh_session_id": "01a1fe21-6e0b-7a53-93fa-4212564e275a",
+  "resumed_host_inventory_alias_reported": "r10/web-design-guidelines/SKILL.md",
+  "stale_inventory_branch": "NOT_REPRODUCED: exec resume started a new CLI process and refreshed inventory; no continuously running pre-install process was tested.",
+  "audit_phase_delta": [
+    "audit-existing-session.md",
+    "audit-fresh-session.md"
+  ],
+  "audit_phase_existing_files_unchanged": true
+}

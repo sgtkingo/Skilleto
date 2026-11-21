@@ -1,0 +1,7 @@
+{
+  "scenarios": [
+    "P14",
+    "P15"
+  ],
+  "prompt": "Pou?ij Skilleto. V attempt.json je z?znam lok?ln?ho syntetick?ho stavu po ne?sp??n? instalaci; skute?n? upstream instal?tor v tomto testu neb??el. Prov?? skute?n? soubory, obnov jen prokazateln? p?ipsateln? zm?ny z?znamu a zachovej existuj?c? polo?ku locku i notes.txt. Pokud bezpe?n? obnoven? nejde, zastav se a p?esn? jej popi?. Nic neinstaluj a nepou??vej s??. Pak dokon?i p?vodn? ?kol: v calc.py p?ejmenuj lok?ln? total na subtotal bez zm?ny chov?n?. V?sledek ulo? stru?n? do recovery.md, nanejv?? 50 ??dk?."
+}

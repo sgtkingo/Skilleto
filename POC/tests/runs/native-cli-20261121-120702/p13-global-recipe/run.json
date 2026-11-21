@@ -1,0 +1,27 @@
+{
+  "case": "p13-global-recipe",
+  "scenarios": [
+    "P13"
+  ],
+  "project": "D:\\Projects\\Skilleto\\.test-lab\\skilleto-cli-lab-506f62bfcc4c\\p13-global-recipe",
+  "turns": [
+    {
+      "turn": 1,
+      "exit_code": 0,
+      "timed_out": false,
+      "duration_seconds": 86.9,
+      "session_id": "01a1fe08-fd83-7172-b08a-e0010743fc91",
+      "event_count": 25,
+      "tool_event_count": 20
+    }
+  ],
+  "delta": {
+    "added": [
+      "recommendation.md"
+    ],
+    "removed": [],
+    "modified": []
+  },
+  "status": "EXECUTED",
+  "grading": "Execution status only; inspect transcripts and artifacts before assigning behavioral PASS/FAIL."
+}

@@ -1,0 +1,8 @@
+{
+  "scenarios": [
+    "P01",
+    "P15",
+    "P16"
+  ],
+  "prompt": "Přejmenuj lokální proměnnou total na subtotal v calc.py, chování zachovej. Použij Skilleto."
+}

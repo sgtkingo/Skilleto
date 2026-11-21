@@ -1,0 +1,7 @@
+{
+  "scenarios": [
+    "P08",
+    "P15"
+  ],
+  "prompt": "Použij Skilleto. Kontext je v proposal.txt. Neinstaluj ho. Pokračuj s tím, co máš: Navrhni strategii stateful property-based testování Python TTL cache: expirace, přepis a pořadí operací. Ulož konkrétní návrh do strategy.md. Nic neinstaluj."
+}

@@ -1,0 +1,8 @@
+{
+  "scenarios": [
+    "P09",
+    "P12"
+  ],
+  "persist_session": true,
+  "prompt": "Pou?ij Skilleto. P?ipravujeme ??zen? test projektov? instalace a n?sledn? audit index.html. Te? pouze na?ti existuj?c? skill a zaznamenej ve sv? odpov?di aktu?ln? dostupn? projektov? skilly. Nic neinstaluj ani nem?? a po?kej na dal?? zpr?vu. Odpov?z stru?n?."
+}

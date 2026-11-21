@@ -1,0 +1,14 @@
+[
+  "C:\\Users\\jirka\\AppData\\Local\\Programs\\OpenAI\\Codex\\bin\\codex.EXE",
+  "--no-daemon",
+  "--ask-for-approval",
+  "never",
+  "exec",
+  "resume",
+  "01a1fe0a-5132-7933-b360-2576762d9890",
+  "--skip-git-repo-check",
+  "--json",
+  "-o",
+  "D:\\Projects\\Skilleto\\POC\\tests\\runs\\native-cli-20261121-120702\\p17-two-turn\\turn-2\\answer.md",
+  "-"
+]

@@ -1,0 +1,17 @@
+[
+  "C:\\Users\\jirka\\AppData\\Local\\Programs\\OpenAI\\Codex\\bin\\codex.EXE",
+  "--no-daemon",
+  "--ask-for-approval",
+  "never",
+  "exec",
+  "--sandbox",
+  "workspace-write",
+  "--skip-git-repo-check",
+  "--json",
+  "-C",
+  "D:\\Projects\\Skilleto\\.test-lab\\skilleto-cli-lab-506f62bfcc4c\\p10-collision",
+  "-o",
+  "D:\\Projects\\Skilleto\\POC\\tests\\runs\\native-cli-20261121-120702\\p10-collision\\turn-1\\answer.md",
+  "--ephemeral",
+  "-"
+]

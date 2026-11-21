@@ -1,0 +1,6 @@
+{
+  "scenarios": [
+    "P18"
+  ],
+  "prompt": "Navrhni pro tento projekt kvalitní strategii property-based testování, která pokryje sekvence operací, hranice expirace a zmenšování chybových případů. Napiš ji do strategy.md. Nic neinstaluj."
+}

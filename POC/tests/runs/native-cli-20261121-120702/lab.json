@@ -1,0 +1,28 @@
+{
+  "lab_root": "D:\\Projects\\Skilleto\\.test-lab\\skilleto-cli-lab-506f62bfcc4c",
+  "output_dir": "D:\\Projects\\Skilleto\\POC\\tests\\runs\\native-cli-20261121-120702",
+  "repo_root": "D:\\Projects\\Skilleto",
+  "cases": [
+    "p01-explicit-edit",
+    "p02-reuse",
+    "p04-fit",
+    "p06-incomplete",
+    "p07-injection",
+    "p08-declined",
+    "p10-collision",
+    "p11-no-network",
+    "p13-global-recipe",
+    "p17-two-turn",
+    "p18-implicit-planning",
+    "p19-implicit-inspection",
+    "p20-routine",
+    "p21-no-task",
+    "cli-consent-gate",
+    "p03-live-evidence",
+    "p05-live-empty",
+    "p09-approved-install",
+    "p14-partial-recovery",
+    "p09-resumed-session",
+    "p09-fresh-session"
+  ]
+}

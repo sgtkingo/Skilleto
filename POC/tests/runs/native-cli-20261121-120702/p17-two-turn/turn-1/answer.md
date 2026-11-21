@@ -1,0 +1,1 @@
+Rozumím. Po tvé další zprávě přejmenuji lokální proměnnou `total` na `subtotal` v `calc.py` beze změny chování. Teď nic neměním.

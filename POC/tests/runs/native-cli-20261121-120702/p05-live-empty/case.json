@@ -1,0 +1,6 @@
+{
+  "scenarios": [
+    "P05"
+  ],
+  "prompt": "Pou?ij Skilleto. Ov?? podle discovery-query-3.txt, zda existuje skill s p?esn?m testovac?m n?zvem skilleto-fixture-nonexistent-96d3b0a4. Z?znam obsahuje skute?n? ji? proveden? negativn? CLI dotaz; ??dn? dal?? dotaz ned?lej. Nic neinstaluj a nepou??vej s??. Pak v calc.py p?ejmenuj lok?ln? total na subtotal. Stru?n? zaznamenej zji?t?n? do result.md."
+}

@@ -1,0 +1,80 @@
+﻿
+Install with npx skills add <owner/repo@skill>
+
+copyleftdev/sk1llz@maciver-hypothesis-testing 14 installs
+└ https://skills.sh/copyleftdev/sk1llz/maciver-hypothesis-testing
+
+koreanleechanghyun/claude-workflow@testing-property-based 1 install
+└ https://skills.sh/koreanleechanghyun/claude-workflow/testing-property-based
+
+kmshihab7878/claude-code-setup@property-based-testing 5 installs
+└ https://skills.sh/kmshihab7878/claude-code-setup/property-based-testing
+
+rafael-abuawad/skills@fyzz 4 installs
+└ https://skills.sh/rafael-abuawad/skills/fyzz
+
+alialavia/pbt-skills@property-based-testing 3 installs
+└ https://skills.sh/alialavia/pbt-skills/property-based-testing
+
+andreibesleaga/gabbe@pbt-strategy 1 install
+└ https://skills.sh/andreibesleaga/gabbe/pbt-strategy
+
+Partial matches (some terms of "python hypothesis stateful testing"):
+
+mattpocock/skills@tdd 1.3M installs
+└ https://skills.sh/mattpocock/skills/tdd
+
+wdm0006/python-skills@testing-python-libraries 135 installs
+└ https://skills.sh/wdm0006/python-skills/testing-python-libraries
+
+laurigates/claude-plugins@hypothesis-testing 75 installs
+└ https://skills.sh/laurigates/claude-plugins/hypothesis-testing
+
+yonatangross/orchestkit@property-based-testing 13 installs
+└ https://skills.sh/yonatangross/orchestkit/property-based-testing
+
+tomperez98/skills@testing-with-accordant 10 installs
+└ https://skills.sh/tomperez98/skills/testing-with-accordant
+
+briiirussell/cybersecurity-skills@fuzzing-harness 90 installs
+└ https://skills.sh/briiirussell/cybersecurity-skills/fuzzing-harness
+
+laurigates/claude-plugins@property-based-testing 74 installs
+└ https://skills.sh/laurigates/claude-plugins/property-based-testing
+
+jamie-bitflight/claude_skills@python3-testing 34 installs
+└ https://skills.sh/jamie-bitflight/claude_skills/python3-testing
+
+brycewang-stanford/auto-empirical-research-skills@marginaleffects 58 installs
+└ https://skills.sh/brycewang-stanford/auto-empirical-research-skills/marginaleffects
+
+vincentarelbundock/marginaleffects@marginaleffects 27 installs
+└ https://skills.sh/vincentarelbundock/marginaleffects/marginaleffects
+
+mejbaurbahar/software-tester-skills@property-based-testing 3 installs
+└ https://skills.sh/mejbaurbahar/software-tester-skills/property-based-testing
+
+aeondave/malskill@python-testing 12 installs
+└ https://skills.sh/aeondave/malskill/python-testing
+
+hypermarble/programmatic-long-horizon@programmatic-long-horizon 2 installs
+└ https://skills.sh/hypermarble/programmatic-long-horizon/programmatic-long-horizon
+
+linn0x/engineering-verification-loop@property-based-differential-testing 2 installs
+└ https://skills.sh/linn0x/engineering-verification-loop/property-based-differential-testing
+
+jpeetz/agent-skills@enterprise-consulting-methods 16 installs
+└ https://skills.sh/jpeetz/agent-skills/enterprise-consulting-methods
+
+databricks-solutions/databricks-exec-code-mcp@databricks-testing 2 installs
+└ https://skills.sh/databricks-solutions/databricks-exec-code-mcp/databricks-testing
+
+smithery.ai@databricks-testing 1 install
+└ https://skills.sh/smithery.ai/databricks-testing
+
+testland/qa@hypothesis-testing 7 installs
+└ https://skills.sh/testland/qa/hypothesis-testing
+
+mohamed-eltelb/mcp-forge@mcp-forge 1 install
+└ https://skills.sh/mohamed-eltelb/mcp-forge/mcp-forge
+

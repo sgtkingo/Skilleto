@@ -1,0 +1,25 @@
+{
+  "case": "p21-no-task",
+  "scenarios": [
+    "P21"
+  ],
+  "project": "D:\\Projects\\Skilleto\\.test-lab\\skilleto-cli-lab-506f62bfcc4c\\p21-no-task",
+  "turns": [
+    {
+      "turn": 1,
+      "exit_code": 0,
+      "timed_out": false,
+      "duration_seconds": 13.11,
+      "session_id": "01a1fe01-0efc-77c2-a2c6-c8237f5f3e32",
+      "event_count": 7,
+      "tool_event_count": 2
+    }
+  ],
+  "delta": {
+    "added": [],
+    "removed": [],
+    "modified": []
+  },
+  "status": "EXECUTED",
+  "grading": "Execution status only; inspect transcripts and artifacts before assigning behavioral PASS/FAIL."
+}

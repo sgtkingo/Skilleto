@@ -1,0 +1,27 @@
+{
+  "case": "p20-routine",
+  "scenarios": [
+    "P20"
+  ],
+  "project": "D:\\Projects\\Skilleto\\.test-lab\\skilleto-cli-lab-506f62bfcc4c\\p20-routine",
+  "turns": [
+    {
+      "turn": 1,
+      "exit_code": 0,
+      "timed_out": false,
+      "duration_seconds": 24.63,
+      "session_id": "01a1fe0c-dc70-7e20-b133-046763f40c83",
+      "event_count": 13,
+      "tool_event_count": 8
+    }
+  ],
+  "delta": {
+    "added": [],
+    "removed": [],
+    "modified": [
+      "calc.py"
+    ]
+  },
+  "status": "EXECUTED",
+  "grading": "Execution status only; inspect transcripts and artifacts before assigning behavioral PASS/FAIL."
+}

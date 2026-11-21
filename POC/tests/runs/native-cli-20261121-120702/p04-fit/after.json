@@ -1,0 +1,38 @@
+{
+  "cache.py": {
+    "sha256": "2788a64d79de12f11acb5c1663c857e324ed49c272dde3a1c6a199eedb13005d",
+    "bytes": 276
+  },
+  "candidates.md": {
+    "sha256": "c9394fd951adc5a9c46d350abb127b048bff8c317b62225793df2fdcc11b8f37",
+    "bytes": 1641
+  },
+  "strategy.md": {
+    "sha256": "a56ce83246787174b3d113707452abedc00f20414816bbf92d9aea89886c124b",
+    "bytes": 15375
+  },
+  ".agents/skills/skilleto/SKILL.md": {
+    "sha256": "9fb44a0e26c37f329d77a62f4fa91b4be9ae9bf84f7e15fde5932ad9996239db",
+    "bytes": 3621
+  },
+  ".agents/skills/skilleto/references/discovery.md": {
+    "sha256": "f17656112a4dbdb27b378864752531431a0a2ed3a11dcd91c55b8e98d1455a9d",
+    "bytes": 3959
+  },
+  ".agents/skills/skilleto/references/provisioning.md": {
+    "sha256": "1e8b60155bb44d4d91ab17f669ca4de6e959e99eb8eb45300087930fb1ee1f75",
+    "bytes": 6952
+  },
+  ".agents/skills/skilleto/references/security-policy.md": {
+    "sha256": "0cf8d1b5cbdd6ce1e46ffc78608748b8ab23448e50d90ac1e79a8c72a380f8cb",
+    "bytes": 4316
+  },
+  ".agents/skills/skilleto/references/semantic-matching.md": {
+    "sha256": "cccf33f9898bec9709b163ea60dd8585cc6a4d662e3b7ac74963d92955f4f885",
+    "bytes": 1982
+  },
+  ".agents/skills/skilleto/references/workflow.md": {
+    "sha256": "f684b01c9d8ba288cab5ff1e1bd37b6a450f788a505d5b461b819603646d1d13",
+    "bytes": 4662
+  }
+}

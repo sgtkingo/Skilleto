@@ -1,0 +1,36 @@
+{
+  "case": "p17-two-turn",
+  "scenarios": [
+    "P17"
+  ],
+  "project": "D:\\Projects\\Skilleto\\.test-lab\\skilleto-cli-lab-506f62bfcc4c\\p17-two-turn",
+  "turns": [
+    {
+      "turn": 1,
+      "exit_code": 0,
+      "timed_out": false,
+      "duration_seconds": 6.12,
+      "session_id": "01a1fe0a-5132-7933-b360-2576762d9890",
+      "event_count": 4,
+      "tool_event_count": 0
+    },
+    {
+      "turn": 2,
+      "exit_code": 0,
+      "timed_out": false,
+      "duration_seconds": 42.22,
+      "session_id": "01a1fe0a-5132-7933-b360-2576762d9890",
+      "event_count": 20,
+      "tool_event_count": 14
+    }
+  ],
+  "delta": {
+    "added": [],
+    "removed": [],
+    "modified": [
+      "calc.py"
+    ]
+  },
+  "status": "EXECUTED",
+  "grading": "Execution status only; inspect transcripts and artifacts before assigning behavioral PASS/FAIL."
+}

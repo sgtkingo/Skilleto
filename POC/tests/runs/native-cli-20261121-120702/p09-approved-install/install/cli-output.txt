@@ -1,0 +1,33 @@
+﻿
+|
+•   codex  Agent detected — installing non-interactively
+[?25l|
+o  Source: D:\Projects\Skilleto\.test-lab\skilleto-cli-lab-506f62bfcc4c\reviewed-web-design-guidelines
+[?25h[?25l|
+o  Local path validated
+[?25h[?25l|
+o  Found 1 skill
+[?25h|
+•  Selected 1 skill: web-design-guidelines
+
+|
+o  Installation Summary -------------------+
+|                                          |
+|  .\.agents\skills\web-design-guidelines  |
+|    universal: Codex                      |
+|                                          |
++------------------------------------------+
+[?25l|
+o  Installation complete
+[?25h
+|
+o  Installed 1 skill --------------------------+
+|                                              |
+|  ✓ web-design-guidelines (copied)            |
+|    → .\.agents\skills\web-design-guidelines  |
+|                                              |
++----------------------------------------------+
+
+|
+—  Done!  Review skills before use; they run with full agent permissions.
+

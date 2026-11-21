@@ -1,0 +1,6 @@
+{
+  "scenarios": [
+    "P02"
+  ],
+  "prompt": "Navrhni strategii stateful property-based testování Python TTL cache: expirace, přepis a pořadí operací. Ulož konkrétní návrh do strategy.md. Nic neinstaluj. Použij Skilleto."
+}

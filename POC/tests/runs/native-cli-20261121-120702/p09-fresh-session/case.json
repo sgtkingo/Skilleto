@@ -1,0 +1,9 @@
+{
+  "scenarios": [
+    "P09",
+    "P15",
+    "P16"
+  ],
+  "project_directory": "p09-approved-install",
+  "prompt": "Pouzij $web-design-guidelines pro audit index.html a uloz nalezy do audit-fresh-session.md. Jde o staticky audit testovaciho HTML. Nic neinstaluj, neaktualizuj, nepouzivej sit a nemen index.html. Vysledek nanejvys 45 radku."
+}

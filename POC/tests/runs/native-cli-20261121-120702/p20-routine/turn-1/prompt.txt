@@ -1,0 +1,1 @@
+Přejmenuj lokální proměnnou total na subtotal v calc.py bez změny chování.

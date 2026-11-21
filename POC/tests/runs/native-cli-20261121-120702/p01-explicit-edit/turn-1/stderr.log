@@ -1,0 +1,5 @@
+2026-11-21T12:07:24.513711Z ERROR codex_skills_extension::host_service: failed to install system skills: io error while remove existing system skills dir: Adresář není prázdný. (os error 145)
+2026-11-21T12:07:25.131645Z  WARN codex_skills::interface: ignoring interface.icon_small: icon path with '..' must resolve under plugin assets/
+2026-11-21T12:07:25.131671Z  WARN codex_skills::interface: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/
+2026-11-21T12:07:25.158854Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-11-21T12:07:35.214440Z  WARN codex_sandboxing::violation: recorded sandbox violation: resource=filesystem backend=windows_sandbox reason=policy_denied path=unknown

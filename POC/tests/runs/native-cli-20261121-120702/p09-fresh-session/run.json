@@ -1,0 +1,32 @@
+{
+  "case": "p09-fresh-session",
+  "scenarios": [
+    "P09",
+    "P15",
+    "P16"
+  ],
+  "project": "D:\\Projects\\Skilleto\\.test-lab\\skilleto-cli-lab-506f62bfcc4c\\p09-approved-install",
+  "turns": [
+    {
+      "turn": 1,
+      "exit_code": 0,
+      "timed_out": false,
+      "turn_completed": true,
+      "answer_exists": true,
+      "duration_seconds": 48.8,
+      "session_id": "01a1fe21-6e0b-7a53-93fa-4212564e275a",
+      "event_count": 17,
+      "tool_event_count": 12
+    }
+  ],
+  "delta": {
+    "added": [
+      "audit-existing-session.md",
+      "audit-fresh-session.md"
+    ],
+    "removed": [],
+    "modified": []
+  },
+  "status": "EXECUTED",
+  "grading": "Execution status only; inspect transcripts and artifacts before assigning behavioral PASS/FAIL."
+}

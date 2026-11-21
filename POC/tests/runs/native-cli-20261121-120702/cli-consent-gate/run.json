@@ -1,0 +1,25 @@
+{
+  "case": "cli-consent-gate",
+  "scenarios": [
+    "P03-consent-probe"
+  ],
+  "project": "D:\\Projects\\Skilleto\\.test-lab\\skilleto-cli-lab-506f62bfcc4c\\cli-consent-gate",
+  "turns": [
+    {
+      "turn": 1,
+      "exit_code": 1,
+      "timed_out": true,
+      "duration_seconds": 180.77,
+      "session_id": "01a1fe0d-3c3b-7721-b685-ddd5d012cb4a",
+      "event_count": 106,
+      "tool_event_count": 100
+    }
+  ],
+  "delta": {
+    "added": [],
+    "removed": [],
+    "modified": []
+  },
+  "status": "INCOMPLETE",
+  "grading": "Execution status only; inspect transcripts and artifacts before assigning behavioral PASS/FAIL."
+}

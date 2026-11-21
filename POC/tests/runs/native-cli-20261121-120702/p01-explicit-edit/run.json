@@ -1,0 +1,29 @@
+{
+  "case": "p01-explicit-edit",
+  "scenarios": [
+    "P01",
+    "P15",
+    "P16"
+  ],
+  "project": "D:\\Projects\\Skilleto\\.test-lab\\skilleto-cli-lab-506f62bfcc4c\\p01-explicit-edit",
+  "turns": [
+    {
+      "turn": 1,
+      "exit_code": 0,
+      "timed_out": false,
+      "duration_seconds": 29.33,
+      "session_id": "01a1fe01-0eda-7a32-b8cd-69a09caed941",
+      "event_count": 13,
+      "tool_event_count": 8
+    }
+  ],
+  "delta": {
+    "added": [],
+    "removed": [],
+    "modified": [
+      "calc.py"
+    ]
+  },
+  "status": "EXECUTED",
+  "grading": "Execution status only; inspect transcripts and artifacts before assigning behavioral PASS/FAIL."
+}

@@ -77,5 +77,10 @@ feedback service, composition or host configuration edits are included.
 invocation and negative safety cases. [Results](tests/results.md) distinguish
 actual runs, controlled simulations and `NOT_RUN`. Use the
 [per-run worksheet](tests/results-template.md) for additional host testing.
+The [native CLI runner](tests/NATIVE-CLI.md) creates fresh small projects and
+copies the complete skill for reproducible Codex tests. The recorded run now
+demonstrates explicit/implicit activation, an approved project installation
+and native use of the installed skill. Its results retain the timeout and
+unreproduced stale-inventory branch.
 Full PoC acceptance requires observed native host behavior and approved real
 provisioning; documentation and simulated decisions alone do not establish it.

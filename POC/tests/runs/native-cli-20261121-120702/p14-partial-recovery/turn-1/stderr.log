@@ -1,0 +1,10 @@
+2026-11-21T12:19:29.201387Z  WARN codex_skills::interface: ignoring interface.icon_small: icon path with '..' must resolve under plugin assets/
+2026-11-21T12:19:29.201421Z  WARN codex_skills::interface: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/
+2026-11-21T12:19:29.219548Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-11-21T12:21:05.821644Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid patch: multiple operations target D:\Projects\Skilleto\.test-lab\skilleto-cli-lab-506f62bfcc4c\p14-partial-recovery\recovery.md
+2026-11-21T12:21:32.716844Z  WARN codex_sandboxing::violation: recorded sandbox violation: resource=filesystem backend=windows_sandbox reason=failed_to_write_file path=unknown
+2026-11-21T12:21:32.716981Z ERROR codex_core::tools::router: error=Exit code: 1
+Wall time: 3.4 seconds
+Output:
+Failed to write file D:\Projects\Skilleto\.test-lab\skilleto-cli-lab-506f62bfcc4c\p14-partial-recovery\recovery.md
+

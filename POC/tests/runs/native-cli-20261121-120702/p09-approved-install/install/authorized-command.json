@@ -1,0 +1,23 @@
+{
+  "cwd": "D:\\Projects\\Skilleto\\.test-lab\\skilleto-cli-lab-506f62bfcc4c\\p09-approved-install",
+  "args": [
+    "npx.cmd",
+    "--yes",
+    "--package",
+    "skills@1.9.0",
+    "skills",
+    "add",
+    "D:\\Projects\\Skilleto\\.test-lab\\skilleto-cli-lab-506f62bfcc4c\\reviewed-web-design-guidelines",
+    "--skill",
+    "web-design-guidelines",
+    "-a",
+    "codex",
+    "--copy",
+    "--yes"
+  ],
+  "reviewed_hashes": {
+    "SKILL.md": "360b1240acfffa95e76373db9f837a1f28aba8f6d4c361e3d588be0eaefaa070",
+    "references/command.md": "d246b026f4f29b5823a9cc857f9edf3d2507002e055e32040cadeaf3b38e0234"
+  },
+  "decision": "INSTALL_APPROVED"
+}

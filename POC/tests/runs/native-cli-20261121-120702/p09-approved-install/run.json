@@ -1,0 +1,28 @@
+{
+  "case": "p09-approved-install",
+  "scenarios": [
+    "P09",
+    "P12"
+  ],
+  "project": "D:\\Projects\\Skilleto\\.test-lab\\skilleto-cli-lab-506f62bfcc4c\\p09-approved-install",
+  "turns": [
+    {
+      "turn": 1,
+      "exit_code": 0,
+      "timed_out": false,
+      "turn_completed": true,
+      "answer_exists": true,
+      "duration_seconds": 19.21,
+      "session_id": "01a1fe0a-9799-75c1-acd4-830e462c8e1a",
+      "event_count": 9,
+      "tool_event_count": 4
+    }
+  ],
+  "delta": {
+    "added": [],
+    "removed": [],
+    "modified": []
+  },
+  "status": "EXECUTED",
+  "grading": "Execution status only; inspect transcripts and artifacts before assigning behavioral PASS/FAIL."
+}

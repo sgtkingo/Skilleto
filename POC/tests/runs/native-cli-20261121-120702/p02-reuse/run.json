@@ -1,0 +1,27 @@
+{
+  "case": "p02-reuse",
+  "scenarios": [
+    "P02"
+  ],
+  "project": "D:\\Projects\\Skilleto\\.test-lab\\skilleto-cli-lab-506f62bfcc4c\\p02-reuse",
+  "turns": [
+    {
+      "turn": 1,
+      "exit_code": 0,
+      "timed_out": false,
+      "duration_seconds": 133.18,
+      "session_id": "01a1fe01-e37a-7241-9645-ff1abde0c130",
+      "event_count": 20,
+      "tool_event_count": 14
+    }
+  ],
+  "delta": {
+    "added": [
+      "strategy.md"
+    ],
+    "removed": [],
+    "modified": []
+  },
+  "status": "EXECUTED",
+  "grading": "Execution status only; inspect transcripts and artifacts before assigning behavioral PASS/FAIL."
+}

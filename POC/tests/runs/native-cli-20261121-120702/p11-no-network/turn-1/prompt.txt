@@ -1,0 +1,1 @@
+Použij Skilleto. Pro tento projekt chybí specialistický workflow pro diagnostiku liveness a fairness protipříkladů v TLA+. Prověř možnosti doplnění a napiš proveditelný postup do strategy.md. Pro tuto úlohu nesmíš používat síť, npx ani jiné instalátory; místní soubory číst a psát můžeš.

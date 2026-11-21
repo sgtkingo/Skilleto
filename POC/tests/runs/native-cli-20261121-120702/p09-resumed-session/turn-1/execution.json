@@ -1,0 +1,11 @@
+{
+  "turn": 1,
+  "exit_code": 0,
+  "timed_out": false,
+  "turn_completed": true,
+  "answer_exists": true,
+  "duration_seconds": 53.43,
+  "session_id": "01a1fe0a-9799-75c1-acd4-830e462c8e1a",
+  "event_count": 14,
+  "tool_event_count": 8
+}

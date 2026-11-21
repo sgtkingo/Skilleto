@@ -1,0 +1,9 @@
+{
+  "turn": 1,
+  "exit_code": 0,
+  "timed_out": false,
+  "duration_seconds": 32.58,
+  "session_id": "01a1fe08-a0be-7353-8e83-e2fc8f634178",
+  "event_count": 13,
+  "tool_event_count": 8
+}

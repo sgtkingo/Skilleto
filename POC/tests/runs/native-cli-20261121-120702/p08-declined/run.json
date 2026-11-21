@@ -1,0 +1,28 @@
+{
+  "case": "p08-declined",
+  "scenarios": [
+    "P08",
+    "P15"
+  ],
+  "project": "D:\\Projects\\Skilleto\\.test-lab\\skilleto-cli-lab-506f62bfcc4c\\p08-declined",
+  "turns": [
+    {
+      "turn": 1,
+      "exit_code": 0,
+      "timed_out": false,
+      "duration_seconds": 121.95,
+      "session_id": "01a1fe06-4cad-7ae2-8901-e92e3011bd7c",
+      "event_count": 18,
+      "tool_event_count": 12
+    }
+  ],
+  "delta": {
+    "added": [
+      "strategy.md"
+    ],
+    "removed": [],
+    "modified": []
+  },
+  "status": "EXECUTED",
+  "grading": "Execution status only; inspect transcripts and artifacts before assigning behavioral PASS/FAIL."
+}

@@ -1,0 +1,6 @@
+{
+  "scenarios": [
+    "P20"
+  ],
+  "prompt": "Přejmenuj lokální proměnnou total na subtotal v calc.py bez změny chování."
+}

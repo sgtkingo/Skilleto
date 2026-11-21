@@ -1,0 +1,29 @@
+{
+  "case": "p05-live-empty",
+  "scenarios": [
+    "P05"
+  ],
+  "project": "D:\\Projects\\Skilleto\\.test-lab\\skilleto-cli-lab-506f62bfcc4c\\p05-live-empty",
+  "turns": [
+    {
+      "turn": 1,
+      "exit_code": 0,
+      "timed_out": false,
+      "duration_seconds": 32.58,
+      "session_id": "01a1fe08-a0be-7353-8e83-e2fc8f634178",
+      "event_count": 13,
+      "tool_event_count": 8
+    }
+  ],
+  "delta": {
+    "added": [
+      "result.md"
+    ],
+    "removed": [],
+    "modified": [
+      "calc.py"
+    ]
+  },
+  "status": "EXECUTED",
+  "grading": "Execution status only; inspect transcripts and artifacts before assigning behavioral PASS/FAIL."
+}
