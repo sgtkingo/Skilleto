@@ -1,0 +1,3 @@
+Rozhodnutí: NO_INSTALL. Původní úkol je přejmenování lokální proměnné v calc.py; dostupné souborové nástroje stačí, takže vyhledávání ani instalace nejsou potřeba.
+
+V calc.py jsem přejmenoval lokální total na subtotal ve všech čtyřech výskytech a zachoval invoice_total i zbytek souboru. Změnu jsem ověřil porovnáním textu; Python ani testy jsem nespouštěl. Kandidát: žádný; shoda/riziko/rozsah/aktivace: N/A; autorizace instalace: nevyžadována; provisioning: neproveden. Úkol je dokončen.

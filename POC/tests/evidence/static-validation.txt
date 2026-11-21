@@ -1,0 +1,9 @@
+PASS: exactly one discoverable PoC skill; fixtures are candidate.md data.
+PASS: required six-file skill tree; no runtime executable.
+PASS: two plain-string portable frontmatter fields; description 471 characters.
+PASS: 38 relative Markdown links resolve in POC.
+PASS: complete copied artifact is byte-identical and 19 relative skill links resolve in isolation.
+PASS: skill sources are UTF-8 without BOM.
+PASS: no project .agents or .claude installation/configuration was added.
+NOT_RUN: bundled quick_validate.py requires missing PyYAML; no package installed.
+Scope: structural validation only; not general YAML parsing, native dispatch, live CLI, or provisioning.

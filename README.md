@@ -45,6 +45,10 @@ Skilleto is designed around four principles:
 
 The initial discovery ecosystem is [skills.sh](https://skills.sh), leveraging its [find-skills](https://www.skills.sh/vercel-labs/skills/find-skills) workflow. Initial target agents include **Codex** and **Claude Code**.
 
+The pure-skill PoC is implemented in [`POC/skills/skilleto/`](POC/skills/skilleto/SKILL.md).
+See the [PoC quick start](POC/README.md), [deployment runbook](POC/docs/DEPLOY.md)
+and [verification results](POC/tests/results.md) for setup and current test coverage.
+
 ## What Skilleto is not
 
 Skilleto is **not** a new skill marketplace, a replacement for existing agents, or a mechanism for silently executing untrusted code. It is a **capability-management layer** that helps an agent use the right tools at the right time — and know when not to add more.

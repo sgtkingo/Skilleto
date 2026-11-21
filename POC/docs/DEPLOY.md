@@ -3,11 +3,18 @@
 > **Document:** `DEPLOY.md` — Proof of Concept only  
 > **Status:** Deployment runbook / implementation instructions  
 > **Version:** PoC 0.1 (independent of the MVP)  
-> **Updated:** 2026-11-20  
+> **Updated:** 2026-11-21
 > **Applies to:** **Skilleto pure skill**, Codex and Claude Code  
 > **Related document:** [`PLAN.md`](./PLAN.md)
 
 ## 0. Deployment model
+
+In this repository the PoC root is `POC/`: the deployable skill is
+[`../skills/skilleto/`](../skills/skilleto/SKILL.md), this runbook and the plan
+stay in `POC/docs/`, and evaluation lives in `POC/tests/`. Commands below run
+from the **repository root** unless stated otherwise. See
+[`../README.md`](../README.md) for the implementation overview and
+[`../tests/results.md`](../tests/results.md) for observed verification limits.
 
 **There is NO Skilleto MCP server to install or start for PoC.** The deployment artifact is the standard Agent Skill directory:
 
@@ -120,30 +127,44 @@ Manual deployment avoids running the third-party Skills CLI **just to install Sk
 | Codex | `<project>/.agents/skills/skilleto/` | `~/.agents/skills/skilleto/` |
 | Claude Code | `<project>/.claude/skills/skilleto/` | `~/.claude/skills/skilleto/` |
 
-For example, from the root of a checked-out PoC repository:
+For example, from this repository root (choose one host):
 
 **macOS / Linux shell:**
 
 ```bash
 # Install only into the current test project, for Codex:
-mkdir -p .agents/skills/skilleto
-cp -R skills/skilleto/. .agents/skills/skilleto/
+if [ -e .agents/skills/skilleto ] || [ -L .agents/skills/skilleto ]; then
+  echo 'Destination exists; inspect it before installing.'
+else
+  mkdir -p .agents/skills
+  cp -R POC/skills/skilleto .agents/skills/skilleto
+fi
 
 # Or into the same test project for Claude Code:
-mkdir -p .claude/skills/skilleto
-cp -R skills/skilleto/. .claude/skills/skilleto/
+if [ -e .claude/skills/skilleto ] || [ -L .claude/skills/skilleto ]; then
+  echo 'Destination exists; inspect it before installing.'
+else
+  mkdir -p .claude/skills
+  cp -R POC/skills/skilleto .claude/skills/skilleto
+fi
 ```
 
 **Windows PowerShell:**
 
 ```powershell
 # Run in the project root, for Codex:
-New-Item -ItemType Directory -Force '.agents/skills/skilleto' | Out-Null
-Copy-Item -Path 'skills/skilleto/*' -Destination '.agents/skills/skilleto/' -Recurse -Force
+if (Test-Path -LiteralPath '.agents/skills/skilleto') {
+    throw 'Destination exists; inspect it before installing.'
+}
+New-Item -ItemType Directory -Force '.agents/skills' | Out-Null
+Copy-Item -LiteralPath 'POC/skills/skilleto' -Destination '.agents/skills/skilleto' -Recurse
 
 # Or for Claude Code:
-New-Item -ItemType Directory -Force '.claude/skills/skilleto' | Out-Null
-Copy-Item -Path 'skills/skilleto/*' -Destination '.claude/skills/skilleto/' -Recurse -Force
+if (Test-Path -LiteralPath '.claude/skills/skilleto') {
+    throw 'Destination exists; inspect it before installing.'
+}
+New-Item -ItemType Directory -Force '.claude/skills' | Out-Null
+Copy-Item -LiteralPath 'POC/skills/skilleto' -Destination '.claude/skills/skilleto' -Recurse
 ```
 
 These examples **assume the destination does not contain another Skilleto installation**. Before copying, inspect the destination and back up/compare files. Do **not** overwrite an existing skill without confirmation.
@@ -159,17 +180,26 @@ The relative paths to references must still resolve after copying. Begin a new h
 
 ## 4. Installation option B — Skills CLI (when authorized)
 
-**Use this after the PoC repository has been checked out and its contents reviewed.** From the root containing `skills/skilleto/SKILL.md`:
+**Use this after the PoC repository has been checked out and its contents reviewed,
+and CLI execution is authorized.** From this repository root, use `./POC` as
+the source (the CLI target remains the current project):
 
 ```bash
 # Codex, project-local:
-npx skills add . --skill skilleto -a codex
+npx skills add ./POC --skill skilleto -a codex
 
 # Claude Code, project-local:
-npx skills add . --skill skilleto -a claude-code
+npx skills add ./POC --skill skilleto -a claude-code
 ```
 
 For both agents, specify both `-a codex -a claude-code` only when the user explicitly requests both installations. The default CLI installation scope is **project**, and should remain so. **Do not append `-g`**. If CLI flags/supported agent IDs differ in the installed CLI version, inspect `npx skills --help` and `npx skills add --help`, then adapt transparently rather than guessing.
+
+PowerShell may block the `npm.ps1`/`npx.ps1` wrappers. If the approved Node
+installation provides permitted `npm.cmd`/`npx.cmd` entrypoints, use them;
+do not change system execution policy. All `npx skills` commands, including
+help/list/search, remain subject to the first-execution consent gate.
+Inspect actual canonical storage and symlinks: the CLI can share
+`.agents/skills/` across hosts. Stop if its effects exceed the approved scope.
 
 **Future published-source example (only after the real repository exists):**
 

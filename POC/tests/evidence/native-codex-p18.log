@@ -1,0 +1,91 @@
+﻿codex : Reading additional input from stdin...
+At line:15 char:161
++ ... | Out-Null; codex exec --ephemeral --sandbox read-only --json --skip- ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Reading additional input from stdin...:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-21T11:47:33.005974Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell sna
+pshot not supported yet for PowerShell
+{"type":"thread.started","thread_id":"01a1fdee-dff8-7f81-833d-f47175d52750"}
+2026-11-21T11:47:33.044801Z  WARN codex_http_client::native_roots: encountered errors while loading native root certifi
+cates native_root_error_count=1
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Code Mode is unavailable because failed to spawn code-mode host C:\\Users\\jirka\\.codex\\.sandbox-bin\\codex-code-mode-host.exe: host executable was not found. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+2026-11-21T11:47:33.073160Z ERROR codex_api::endpoint::responses_websocket: failed to connect to Responses WebSocket st
+age=Unknown
+2026-11-21T11:47:33.073861Z  WARN codex_core::session::startup_prewarm: startup websocket prewarm setup failed: stream 
+disconnected before completion: Došlo k pokusu o přístup k soketu způsobem zakázaným jeho přístupovými oprávněními. (os
+ error 10013)
+2026-11-21T11:47:33.081288Z  WARN codex_http_client::native_roots: encountered errors while loading native root certifi
+cates native_root_error_count=1
+2026-11-21T11:47:33.083118Z ERROR codex_api::endpoint::responses_websocket: failed to connect to Responses WebSocket st
+age=Unknown
+2026-11-21T11:47:33.083291Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (1/5 in 
+206ms)... turn_id=01a1fdee-e02c-7042-b9ad-ad359e868960 retries=1 max_retries=5 sampling_error=stream disconnected befor
+e completion: Došlo k pokusu o přístup k soketu způsobem zakázaným jeho přístupovými oprávněními. (os error 10013)
+2026-11-21T11:47:33.152923Z  WARN codex_core_plugins::startup_sync: git sync failed for curated plugin sync; falling ba
+ck to GitHub HTTP error=git ls-remote curated plugins repo failed with status exit code: 128: fatal: unable to access '
+https://github.com/openai/plugins.git/': Failed to connect to github.com port 443 after 69 ms: Could not connect to ser
+ver
+2026-11-21T11:47:33.175037Z  WARN codex_core_plugins::startup_sync: GitHub HTTP sync failed for curated plugin sync; fa
+lling back to export archive error=failed to get curated plugins repository from https://api.github.com/repos/openai/pl
+ugins: error sending request for url (https://api.github.com/repos/openai/plugins) backup_archive_api_url="https://chat
+gpt.com/backend-api/plugins/export/curated"
+2026-11-21T11:47:33.195073Z  WARN codex_core_plugins::manager: failed to sync curated plugins repo: git sync failed for
+ curated plugin sync: git ls-remote curated plugins repo failed with status exit code: 128: fatal: unable to access 'ht
+tps://github.com/openai/plugins.git/': Failed to connect to github.com port 443 after 69 ms: Could not connect to serve
+r; GitHub HTTP sync failed for curated plugin sync: failed to get curated plugins repository from https://api.github.co
+m/repos/openai/plugins: error sending request for url (https://api.github.com/repos/openai/plugins); export archive syn
+c failed for curated plugin sync: failed to get curated plugins export archive metadata from https://chatgpt.com/backen
+d-api/plugins/export/curated: error sending request for url (https://chatgpt.com/backend-api/plugins/export/curated)
+2026-11-21T11:47:33.294175Z  WARN codex_http_client::native_roots: encountered errors while loading native root certifi
+cates native_root_error_count=1
+2026-11-21T11:47:33.295549Z ERROR codex_api::endpoint::responses_websocket: failed to connect to Responses WebSocket st
+age=Unknown
+2026-11-21T11:47:33.295655Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (2/5 in 
+387ms)... turn_id=01a1fdee-e02c-7042-b9ad-ad359e868960 retries=2 max_retries=5 sampling_error=stream disconnected befor
+e completion: Došlo k pokusu o přístup k soketu způsobem zakázaným jeho přístupovými oprávněními. (os error 10013)
+{"type":"error","message":"Reconnecting... 2/5 (stream disconnected before completion: Došlo k pokusu o přístup k soketu způsobem zakázaným jeho přístupovými oprávněními. (os error 10013))"}
+2026-11-21T11:47:33.684757Z  WARN codex_http_client::native_roots: encountered errors while loading native root certifi
+cates native_root_error_count=1
+2026-11-21T11:47:33.700085Z ERROR codex_api::endpoint::responses_websocket: failed to connect to Responses WebSocket st
+age=Unknown
+2026-11-21T11:47:33.700217Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (3/5 in 
+790ms)... turn_id=01a1fdee-e02c-7042-b9ad-ad359e868960 retries=3 max_retries=5 sampling_error=stream disconnected befor
+e completion: Došlo k pokusu o přístup k soketu způsobem zakázaným jeho přístupovými oprávněními. (os error 10013)
+{"type":"error","message":"Reconnecting... 3/5 (stream disconnected before completion: Došlo k pokusu o přístup k soketu způsobem zakázaným jeho přístupovými oprávněními. (os error 10013))"}
+2026-11-21T11:47:34.503620Z  WARN codex_http_client::native_roots: encountered errors while loading native root certifi
+cates native_root_error_count=1
+2026-11-21T11:47:34.504895Z ERROR codex_api::endpoint::responses_websocket: failed to connect to Responses WebSocket st
+age=Unknown
+2026-11-21T11:47:34.504997Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (4/5 in 
+1.589s)... turn_id=01a1fdee-e02c-7042-b9ad-ad359e868960 retries=4 max_retries=5 sampling_error=stream disconnected befo
+re completion: Došlo k pokusu o přístup k soketu způsobem zakázaným jeho přístupovými oprávněními. (os error 10013)
+{"type":"error","message":"Reconnecting... 4/5 (stream disconnected before completion: Došlo k pokusu o přístup k soketu způsobem zakázaným jeho přístupovými oprávněními. (os error 10013))"}
+2026-11-21T11:47:36.099256Z  WARN codex_http_client::native_roots: encountered errors while loading native root certifi
+cates native_root_error_count=1
+2026-11-21T11:47:36.115157Z ERROR codex_api::endpoint::responses_websocket: failed to connect to Responses WebSocket st
+age=Unknown
+2026-11-21T11:47:36.115263Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (5/5 in 
+3.492s)... turn_id=01a1fdee-e02c-7042-b9ad-ad359e868960 retries=5 max_retries=5 sampling_error=stream disconnected befo
+re completion: Došlo k pokusu o přístup k soketu způsobem zakázaným jeho přístupovými oprávněními. (os error 10013)
+{"type":"error","message":"Reconnecting... 5/5 (stream disconnected before completion: Došlo k pokusu o přístup k soketu způsobem zakázaným jeho přístupovými oprávněními. (os error 10013))"}
+2026-11-21T11:47:39.618896Z  WARN codex_http_client::native_roots: encountered errors while loading native root certifi
+cates native_root_error_count=1
+2026-11-21T11:47:39.620227Z ERROR codex_api::endpoint::responses_websocket: failed to connect to Responses WebSocket st
+age=Unknown
+2026-11-21T11:47:39.620340Z  WARN codex_core::client: falling back to HTTP
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Falling back from WebSockets to HTTPS transport. stream disconnected before completion: Došlo k pokusu o přístup k soketu způsobem zakázaným jeho přístupovými oprávněními. (os error 10013)"}}
+2026-11-21T11:47:42.671653Z  WARN codex_core::responses_retry: stream connection failed; waiting to retry turn_id=01a1f
+dee-e02c-7042-b9ad-ad359e868960 error=Connection failed: error sending request retry_delay=5s
+{"type":"error","message":"Reconnecting... waiting for network (Connection failed: error sending request)"}
+2026-11-21T11:47:50.978669Z  WARN codex_core::responses_retry: stream connection failed; waiting to retry turn_id=01a1f
+dee-e02c-7042-b9ad-ad359e868960 error=Connection failed: error sending request retry_delay=10s
+{"type":"error","message":"Reconnecting... waiting for network (Connection failed: error sending request)"}
+2026-11-21T11:48:03.950103Z  WARN codex_core::responses_retry: stream connection failed; waiting to retry turn_id=01a1f
+dee-e02c-7042-b9ad-ad359e868960 error=Connection failed: error sending request retry_delay=20s
+{"type":"error","message":"Reconnecting... waiting for network (Connection failed: error sending request)"}
+2026-11-21T11:48:27.290205Z  WARN codex_core::responses_retry: stream connection failed; waiting to retry turn_id=01a1f
+dee-e02c-7042-b9ad-ad359e868960 error=Connection failed: error sending request retry_delay=40s
+{"type":"error","message":"Reconnecting... waiting for network (Connection failed: error sending request)"}
